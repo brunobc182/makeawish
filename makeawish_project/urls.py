@@ -4,5 +4,5 @@ from makeawish_project import routers
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^api', include(routers.router.urls)),
+    url(r'^api/', include(routers.router.urls)),
 ]
